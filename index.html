@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delivery Food</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="#"> <img class="logo header__logo link" src="./img/icon/logo.svg" alt="logo" /></a>
+        <input
+          type="text"
+          class="header__adress_input input"
+          name="user-adress"
+          placeholder="Адресс доставки"
+        />
+        <div class="header__buttons">
+          <span class="user-name"></span>
+          <button type="button" class="header__login_bnt">
+            <img src="./img/icon/user.svg" alt="home" class="header__login_icon" />Войти
+          </button>
+          <button type="button" class="header__out_bnt">
+            <img src="./img/icon/user.svg" alt="home" class="header__login_icon" />Выйти
+          </button>
+          <button data-modal-open type="button" class="header__trash_bnt">
+            <img src="./img/icon/shopping-cart.svg" alt="home" class="header__trash_icon" />Корзина
+          </button>
+        </div>
+      </header>
+    </div>
+    <main class="main">
+      <div class="container">
+        <div class="swiper-container">
+          <section class="swiper-wrapper">
+            <section class="promo pizza swiper-slide">
+              <div class="promo__offer">
+                <h1 class="promo__title">Онлайн-сервис<br />доставки еды на дом</h1>
+                <p class="promo__text">
+                  Блюда из любимого ресторана привезет<br />курьер в перчатках, маске и с
+                  антисептиком
+                </p>
+              </div>
+            </section>
+            <section class="promo kebab swiper-slide">
+              <div class="promo__offer">
+                <h2 class="promo__title">
+                  Шашлыки на майские <br />
+                  со скидкой 35%
+                </h2>
+                <p class="promo__text">
+                  Закажите шашлыки в любом ресторане до 10 мая <br />
+                  и получите скидку по промокоду OMAGAD
+                </p>
+              </div>
+            </section>
+            <section class="promo swiper-slide">
+              <div class="promo__offer">
+                <h2 class="promo__title">
+                  Скидка 20% на всю еду <br />
+                  по промокоду LOVE.JS
+                </h2>
+                <p class="promo__text">
+                  Блюдо из ресторана привезут вместе с двумя <br />подарочными книгами по фронтенду
+                </p>
+              </div>
+            </section>
+            <section class="promo sushi swiper-slide">
+              <div class="promo__offer">
+                <h2 class="promo__title">
+                  Сеты со скидкой до 30% <br />
+                  в ресторанах
+                </h2>
+                <p class="promo__text">
+                  Скидки на сеты до 30 мая<br />
+                  по промокоду DADADA
+                </p>
+              </div>
+            </section>
+          </section>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <section class="restaurants container">
+        <div class="restaurants__heading">
+          <h2>Рестораны</h2>
+          <input
+            type="text"
+            class="restaurants__input input"
+            name="menu-search"
+            placeholder="Поиск блюд и ресторанов"
+          />
+        </div>
+
+        <div class="cards">
+          <ul class="cards__list list">
+            <!-- <li class="cards__item">
+              <a class="cards__link link" href="restourant.html">
+                <img src="./img/pizza-plus/preview.jpg" alt="Пиццерия" class="cards__image" />
+                <div class="cards__text">
+                  <div class="cards__heading">
+                    <h3 class="cards__title">Пицца плюс</h3>
+                    <div class="cards__time">50 мин</div>
+                  </div>
+                </div>
+                <div class="cards__info">
+                  <p class="cards__rating">
+                    <img class="cards__rating_star" src="./img/icon/rating.svg" alt="star" /> 4.5
+                  </p>
+                  <p class="cards__price">От 900 ₽</p>
+                  <p class="cards__product">Пицца</p>
+                </div>
+              </a>
+            </li>
+
+            -->
+          </ul>
+        </div>
+      </section>
+
+      <div class="menu">
+        <section class="restaurants container">
+          <div class="restaurant__heading">
+            <!-- <h2>Тануки</h2>
+            <div class="restourant_cards__info">
+              <p class="cards__rating">
+                <img class="cards__rating_star" src="./img/icon/rating.svg" alt="star" /> 4.5
+              </p>
+              <p class="cards__price">От 900 ₽</p>
+              <p class="cards__product">Пицца и суши</p>
+            </div> -->
+          </div>
+
+          <div class="cards">
+            <ul class="cards__list menu-cards-list list">
+              <!-- <li class="cards__item">
+                <img src="./img/tanuki/azhi.jpg" alt="Пиццерия" class="cards__image" />
+                <div class="cards__text">
+                  <div class="cards__heading_rest">
+                    <h3 class="cards__title cards__title_reg">Ролл угорь стандарт</h3>
+                    <p class="cards__descr">
+                      Рис, угорь, соус унаги, <br />
+                      кунжут, водоросли нори.
+                    </p>
+                  </div>
+                </div>
+                <div class="cards__info">
+                  <button type="button" class="cards__btn">
+                    В корзину &nbsp<img src="./img/icon/shopping-cart-white.svg" alt="cart" />
+                  </button>
+                  <p class="cards__price_rest">250 ₽</p>
+                </div>
+              </li>
+
+              -->
+            </ul>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__block">
+          <a href="#">
+            <img class="logo footer__logo link" src="./img/icon/logo.svg" alt="logo"
+          /></a>
+          <nav class="footer__navigation">
+            <a href="#" class="footer__link link">Ресторанам </a>
+            <a href="#" class="footer__link link">Курьерам</a>
+            <a href="#" class="footer__link link">Пресс-центр</a>
+            <a href="#" class="footer__link link">Контакты</a>
+          </nav>
+
+          <div class="social-links">
+            <ul class="social list">
+              <li class="social-links__item">
+                <img class="social-links__icon" src="./img/social/insta.svg" alt="instagram icon" />
+              </li>
+              <li class="social-links__item">
+                <img
+                  class="social-links__icon"
+                  src="./img/social/face.svg"
+                  alt="facebook icon"
+                  width="25px"
+                  height="25px"
+                />
+              </li>
+              <li class="social-links__item">
+                <img class="social-links__icon" src="./img/social/vk.svg" alt="vk icon" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <div class="modal__header">
+          <h3 class="modal__title">Корзина</h3>
+          <button data-modal-close type="button" class="modal__close">&times;</button>
+        </div>
+        <div class="modal__body">
+          <!-- <div class="food-row">
+            <span class="food-name">Ролл угорь стандарт</span>
+            <strong class="food-price">250 ₽</strong>
+            <div class="food-counter">
+              <button type="button" class="counter-button decrement">-</button>
+              <span class="counter">1</span>
+              <button type="button" class="counter-button increment">+</button>
+            </div>
+          </div>
+          <div class="food-row">
+            <span class="food-name">Ролл угорь стандарт</span>
+            <strong class="food-price">250 ₽</strong>
+            <div class="food-counter">
+              <button type="button" class="counter-button">-</button>
+              <span class="counter">1</span>
+              <button type="button" class="counter-button">+</button>
+            </div>
+          </div>
+          <div class="food-row">
+            <span class="food-name">Ролл угорь стандарт</span>
+            <strong class="food-price">250 ₽</strong>
+            <div class="food-counter">
+              <button type="button" class="counter-button">-</button>
+              <span class="counter">1</span>
+              <button type="button" class="counter-button">+</button>
+            </div>
+          </div>
+          <div class="food-row">
+            <span class="food-name">Ролл угорь стандарт</span>
+            <strong class="food-price">250 ₽</strong>
+            <div class="food-counter">
+              <button type="button" class="counter-button">-</button>
+              <span class="counter">1</span>
+              <button type="button" class="counter-button">+</button>
+            </div>
+          </div>
+          <div class="food-row">
+            <span class="food-name">Ролл угорь стандарт</span>
+            <strong class="food-price">250 ₽</strong>
+            <div class="food-counter">
+              <button type="button" class="counter-button">-</button>
+              <span class="counter">1</span>
+              <button type="button" class="counter-button">+</button>
+            </div>
+          </div> -->
+        </div>
+        <div class="modal-footer">
+          <span class="pricetag">0 ₽</span>
+          <div class="modal-footer__buttons">
+            <button type="button" class="modal-footer__button-blue modal-footer__button">
+              Оформить заказ
+            </button>
+            <button type="button" class="modal-footer__button" cancle-btn>Отмена</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="backdrop is-hidden" login-data-modal>
+      <div class="modal login-modal">
+        <fieldset>
+          <legend class="modal__title">Авторизация</legend>
+          <form class="login-form">
+            <div class="login-input-wrapper">
+              <label class="login-lable">
+                Login:
+                <input type="text" class="login-input" name="email" placeholder="Твоё имя" />
+              </label>
+              <label class="login-lable">
+                Password:
+                <input type="password" class="login-input" name="password" placeholder="Пароль" />
+              </label>
+            </div>
+            <div class="modal-footer__buttons">
+              <button type="submit" class="modal-footer__button-blue modal-footer__button">
+                Войти
+              </button>
+              <button type="button" class="modal-footer__button" login-modal-close>Отмена</button>
+            </div>
+          </form>
+        </fieldset>
+      </div>
+    </div>
+
+    <script src="./js/main.js" type="module"></script>
+    <script src="./js/modal.js" type="module"></script>
+    <script src="./js/disabledScroll.js" type="module"></script>
+  </body>
+</html>

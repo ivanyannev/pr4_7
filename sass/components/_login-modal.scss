@@ -1,0 +1,39 @@
+.login-modal {
+  max-width: 580px;
+}
+.login-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-lable {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  gap: 7px;
+}
+
+.login-input {
+  width: 376px;
+  height: 34px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .login-input {
+    width: 326;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .login-modal {
+    max-width: 380px;
+  }
+  .login-input {
+    width: 226px;
+  }
+}

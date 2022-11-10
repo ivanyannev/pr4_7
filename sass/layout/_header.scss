@@ -1,0 +1,108 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__adress_input {
+  color: #000000;
+  flex: 0.8;
+  height: 40px;
+  background-image: url(../img/icon/home.svg);
+  background-repeat: no-repeat;
+  background-position: 11px 10px;
+}
+
+.user-name {
+  margin-right: 20px;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.header__login_bnt {
+  cursor: pointer;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  background-color: #1890ff;
+  color: #fff;
+}
+
+.header__login_icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.header__out_bnt {
+  display: none;
+  cursor: pointer;
+  height: 40px;
+
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  background-color: red;
+  color: #fff;
+}
+
+.header__trash_bnt {
+  cursor: pointer;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 15px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.header__trash_icon {
+  margin-right: 4px;
+}
+
+.header__buttons {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .header__login_bnt {
+    padding: 4px 8px;
+    margin-bottom: 5px;
+    margin-right: 0;
+    height: 30px;
+    width: 100%;
+  }
+
+  .header__out_bnt {
+    padding: 4px 8px;
+    margin-bottom: 5px;
+    margin-right: 0;
+    height: 30px;
+    width: 100%;
+  }
+
+  .user-name {
+    font-style: 14px;
+  }
+
+  .header__trash_bnt {
+    padding: 2px 5px;
+    height: 30px;
+  }
+  .header__buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}

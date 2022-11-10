@@ -1,0 +1,125 @@
+.promo {
+  display: flex;
+  align-items: center;
+  background-clip: content-box;
+  height: 270px;
+  background-color: #fff45c;
+
+  background-image: url(../img/promo/vegetables.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+  margin-bottom: 20px;
+}
+
+.pizza {
+  background-color: #fff1b8;
+  background-image: url(../img/promo/pizza.png);
+  background-size: 600px;
+  background-position: top right -100px;
+}
+
+.kebab {
+  background-color: #cbecec;
+  background-image: url(../img/promo/kebab.png);
+  background-size: 600px;
+  background-position: top right -100px;
+}
+
+.sushi {
+  background-color: #ecebd9;
+  background-image: url(../img/promo/sushi.png);
+  background-size: 600px;
+  background-position: top right -100px;
+}
+
+.promo__offer {
+  padding-left: 70px;
+  padding-top: 68px;
+  padding-bottom: 68px;
+}
+
+.promo__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 46px;
+
+  color: #302c34;
+  padding-bottom: 15px;
+}
+
+.promo__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #302c34;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .promo {
+    background-size: 600px;
+    background-position: top right -100px;
+  }
+  .promo__offer {
+    padding-left: 30px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+  }
+
+  .pizza {
+    background-size: 400px;
+    background-position: top right -100px;
+  }
+
+  .kebab {
+    background-size: 320px;
+    background-position: top right -50px;
+  }
+
+  .sushi {
+    background-size: 400px;
+    background-position: top right -150px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .promo {
+    background-size: 630px;
+    background-position: top right -220px;
+  }
+
+  .pizza {
+    background-size: 400px;
+    background-position: top right -220px;
+  }
+
+  .kebab {
+    background-size: 260px;
+    background-position: top right -160px;
+  }
+
+  .sushi {
+    background-size: 450px;
+    background-position: top right -210px;
+  }
+
+  .promo__title {
+    font-size: 24px;
+    line-height: 26px;
+    padding-bottom: 35px;
+  }
+
+  .promo__text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .promo__offer {
+    padding-left: 10px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+}
